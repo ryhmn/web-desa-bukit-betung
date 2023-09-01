@@ -2,23 +2,33 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     margin: 0;
     padding: 0;
 }
 
 a:hover {
+    cursor: pointer;
+}
+
+#footer a:hover {
     color: #ff6584 !important;
 }
 a.btn:hover {
     color: #f8f9fa !important;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Lilita One', cursive;
+a.navbar-brand > span {
+    font-family: 'Lilita One', cursive !important;
+    letter-spacing: 2px;
+    /* font-size: 20pt; */
 }
 
-h2::after {
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lilita One', cursive !important;
+}
+
+h2::after, a.navbar-brand > span:after {
     content: '.';
     position: absolute;
     color: #ff6584;
@@ -46,10 +56,19 @@ p {
     line-height: 1.55rem;
 }
 
+.active {
+    color: #1f1f1fcc;
+    font-weight: bolder;
+}
+
 .blur-card {
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.20);
+}
+
+.border-primary {
+    border-color: #ff6584 !important;
 }
 
 .btn-primary {
@@ -68,9 +87,22 @@ p {
     transition: .3s;
 }
 
+li > a.active {
+    background-color: #ff6584 !important;
+    color: #f8f9fa !important;
+}
+li > a.active {
+    background-color: #ff6584 !important;
+    color: #f8f9fa !important;
+}
+
 #hero,
 #gov-structure {
     padding-top: 67px;
+}
+
+.gov-structure-container > .row:nth-of-type(2) > div > .row {
+    border-left: 2px solid #dee2e6;
 }
 
 .hero-container {
@@ -104,9 +136,15 @@ p {
     padding: 0 1.8rem;
 }
 
-/* .gov-structure-container {
-
+/* .spinner-border {
+    margin: 0;
+    position: absolute;
+    top: 50%;
 } */
+
+.text-primary {
+    color: #ff6584 !important;
+}
 
 #village-options {
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) ,url("../images/village_example_2.jpg");
@@ -161,6 +199,11 @@ p {
 }
 
 @media (min-width: 1200px) {
+    .gov-structure-container > .row:nth-of-type(2) > div > .row:hover {
+        border-left: 2px solid #ff6584;
+        cursor: pointer;
+    }
+
     .village-options-container > .row > div:nth-of-type(2) {
         margin-top: 5% !important;
     }
@@ -181,9 +224,9 @@ p {
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
     body {
-        width: 1400px;
+        width: 1440px;
         margin: 0 auto;
     }
 }

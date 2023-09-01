@@ -5,6 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,37 +22,36 @@
 </head>
 
 <body class="bg-light">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 py-2 fixed-top"
-    style="border-bottom: 1px solid #4042423f;">
-    <div class="container-fluid">
-      <a class="navbar-brand py-0 text-uppercase fw-bolder text-muted" href="index.html">
-        <img src="assets/images/kabupaten_kampar.png" alt="Kabupaten Kampar" width="40" height="50">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Profil Desa
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Struktur Pemerintahan</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-2 px-lg-5 py-2 fixed-top border-bottom">
+    <a class="navbar-brand py-0 text-uppercase fw-bolder" href="index.html">
+      <img src="assets/images/kabupaten_kampar.png" alt="Kabupaten Kampar" width="35" height="45">
+      <span class="ms-2 ms-xl-3">
+        Desa Bukit Betung
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Profil Desa
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item active" href="governments-structure.html">Struktur Pemerintahan</a></li>
+            <li><a class="dropdown-item" href="infrastructure.html">Infrastruktur Desa</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a id="contact" class="nav-link" href="#">Kontak</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
@@ -64,83 +64,83 @@
       </div>
       <div class="row me-0 justify-content-center mx-auto pt-4 pb-5 px-4">
         <!-- <div id="tree" class="col-md-12 bg-light"></div> -->
-        <div class="col-6 col-md-5 col-lg-4 col-xl-3 mx-4">
+        <div class="col-11 col-sm-8 col-md-6 col-lg-4 col-xl-3 mx-1">
           <img class="mw-100 rounded" src="assets/images/mr_kades.jpg" alt="Kepala Desa Bukit Betung">
           <p class="fw-bolder mb-0 mt-3 text-center">Kepala Desa</p>
           <p class="mt-0 text-center">Ponrizal, S.Pd.SD</p>
           <div class="row mt-4">
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Sekretaris Desa</p>
               <p class="mt-0">Reki Canra</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kaur Keuangan</p>
               <p class="mt-0">Narus Dinata</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kaur Umum</p>
               <p class="mt-0">Reko Rewan</p>
             </div>
           </div>
           <div class="row mt-4">
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kasi Pemerintahan</p>
               <p class="mt-0">Penrizal</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kasi Pelayanan</p>
               <p class="mt-0">Ardi Jasman</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kasi Kesejahteraan dan Pengadaan</p>
               <p class="mt-0">Syahwaril</p>
             </div>
           </div>
           <div class="row mt-4">
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kadus I</p>
               <p class="mt-0">Emi Parida</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kadus II</p>
               <p class="mt-0">MHD Arianda</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kadus III</p>
               <p class="mt-0">Reka Andres</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Kadus IV</p>
               <p class="mt-0">Adi Syahputra</p>
             </div>
           </div>
         </div>
-        <div class="col-6 col-md-5 col-lg-4 col-xl-3 mx-4">
+        <div class="col-11 col-sm-8 col-md-6 col-lg-4 col-xl-3 mx-4 mt-5 mt-lg-0">
           <img class="mw-100 rounded" src="assets/images/mr_bpd.jpg" alt="Ketua BPD Desa Bukit Betung">
           <p class="fw-bolder mb-0 mt-3 text-center">Ketua BPD</p>
           <p class="mt-0 text-center">Samsuarni</p>
           <div class="row mt-4">
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Wakil Ketua BPD</p>
               <p class="mt-0">Khulba Edison</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Anggota BPD</p>
               <p class="mt-0">Mitra Yaldi</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Anggota BPD</p>
               <p class="mt-0">Masril</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Anggota BPD</p>
               <p class="mt-0">Jelmi</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Anggota BPD</p>
               <p class="mt-0">Gurmadi</p>
             </div>
-            <div class="col-12 border-start border-2">
+            <div class="col-12">
               <p class="fw-bolder mb-0">Anggota BPD</p>
               <p class="mt-0">Suharni Idris</p>
             </div>
@@ -167,91 +167,35 @@
       </div>
     </div>
   </section>
+
+     <!-- Jquery Script -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script>
+      // $(document).ready(function() {
+        $("#btn-location").click(function() {
+            // $(window).animate({
+            //     scrollTop: $("#village-locations").offset().top
+            // }, 2000);
+            $(window).scrollTop( $("#village-locations").offset().top );
+        });
+    
+        $("#btn-majority-jobs").click(function() {
+            // $(window).animate({
+            //     scrollTop: $("#majority-jobs").offset().top
+            // }, 2000);
+            $(window).scrollTop( $("#majority-jobs").offset().top );
+        });
   
-  <!-- <script>
-    OrgChart.templates.cool = Object.assign({}, OrgChart.templates.ana);
-    OrgChart.templates.cool.defs = '<filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="cool-shadow"><feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1" /><feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1" /><feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1" /><feMerge><feMergeNode in="shadowMatrixOuter1" /><feMergeNode in="SourceGraphic" /></feMerge></filter>';
-      
-    OrgChart.templates.cool.size = [310, 190];
-    OrgChart.templates.cool.node = '<rect filter="url(#cool-shadow)"  x="0" y="40" height="120" width="310" fill="#ffffff" stroke-width="1" stroke="#eeeeee" rx="10" ry="10"></rect><rect fill="#ffffff" x="100" y="50" width="200" height="100" rx="10" ry="10" filter="url(#cool-shadow)"></rect>'
-        // + '<image  xlink:href="https://cdn.balkan.app/shared/speedometer.svg" x="110" y="65" width="32" height="32"></image>';
-
-    OrgChart.templates.cool.img = '<clipPath id="{randId}"><rect fill="#ffffff" stroke="#039BE5" stroke-width="5" x="10" y="50" rx="10" ry="10" width="80" height="100"></rect></clipPath><image preserveAspectRatio="xMidYMid slice" clip-path="url(#{randId})" xlink:href="{val}" x="10" y="50" width="80" height="100"></image><rect fill="none" stroke="#FFFFFF" stroke-width="2" x="10" y="50" rx="10" ry="10" width="80" height="100"></rect>';
-
-    OrgChart.templates.cool.name = '<text style="font-size: 18px; font-weight: bolder; font-family: "Poppins", sans-serif;" fill="#afafaf" x="110" y="85">{val}</text>';
-    OrgChart.templates.cool.title = '<text  style="font-size: 14px;" fill="#F57C00" x="110" y="115">{val}</text>';
-    // OrgChart.templates.cool.title2 = '<text style="font-size: 14px;" fill="#afafaf" x="20" y="165">{val}</text>';
-    // OrgChart.templates.cool.points = '<text style="font-size: 24px;" fill="#F57C00" x="270" y="165" text-anchor="middle">{val}</text>';
-    // OrgChart.templates.cool.performance = '<text style="font-size: 24px;" fill="#F57C00" x="150" y="90" >{val}</text>';
-    // OrgChart.templates.cool.svg = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:#F2F2F2;display:block;" width="{w}" height="{h}" viewBox="{viewBox}">{content}</svg>';
-    // OrgChart.templates.cool.nodeMenuButton =
-    //     '<g style="cursor:pointer;" transform="matrix(1,0,0,1,270,20)" data-ctrl-n-menu-id="{id}">'
-    //     + '<rect x="-4" y="-10" fill="#000000" fill-opacity="0" width="22" height="22"></rect>'
-    //     + '<circle cx="0" cy="0" r="2" fill="#F57C00"></circle>'
-    //     + '<circle cx="7" cy="0" r="2" fill="#F57C00"></circle><circle cx="14" cy="0" r="2" fill="#F57C00"></circle>'
-    //     + '</g>';
-
-    var chart;
-    chart = new OrgChart(document.getElementById('tree'), {
-        mouseScrool: OrgChart.none,
-        enableSearch: false,
-        template: 'cool',
-        nodeBinding: {
-            name: 'name',
-            title: 'title',
-            // title2: 'title2',
-            // points: 'points',
-            // performance: 'performance',
-            img: 'img'
-        },
-        tags: {
-        partnerTemplate: {
-            template: 'cool'
-          }
-        },
-        // nodeMenu: {
-        //     details: { text: "Details" },
-        //     edit: { text: "Edit" },
-        //     add: { text: "Add" },
-        //     remove: { text: "Remove" }
-        // },
-    });
-
-    chart.load([
-        { id: 1, name: 'Ponrizal, S.Pd.SD', title: 'Kepala Desa', img: 'assets/images/mr_kades.jpg' },
-        { id: 2, name: 'Samsuarni', title: 'Ketua BPD', pid: 1, tags: ['partner', 'partnerTemplate'], img: "assets/images/mr_bpd.jpg" },
-        { id: 3, name: 'Reki Canra', title: 'Sekretaris Desa', pid: 1, img: 'https://cdn.balkan.app/shared/2.jpg' },
-        { id: 4, name: 'Narus Dinata', title: 'Kaur Keuangan', pid: 3, img: 'https://cdn.balkan.app/shared/3.jpg' },
-        { id: 5, name: 'Reko Rewan', title: 'Kaur Umum', pid: 3, img: "assets/images/mr_bpd.jpg" },
-        { id: 6, name: 'Penrizal', title: 'Kasi Pemerintahan', pid: 1, img: "assets/images/mr_bpd.jpg" },
-        { id: 7, name: 'Ardi Jasman', title: 'Kasi Pelayanan', pid: 1, img: "assets/images/mr_bpd.jpg" },
-        { id: 8, name: 'Syahwaril', title: 'Kasi Kesejahteraan dan Pengadaan', pid: 1, img: "assets/images/mr_bpd.jpg" },
-        { id: 9, name: 'Emi Parida', title: 'Kadus 1', pid: 1, img: "assets/images/mr_bpd.jpg" },
-        { id: 10, name: 'MHD. Ariayanda', title: 'Kadus 2', pid: 1, img: "assets/images/mr_bpd.jpg" },
-        { id: 11, name: 'Reka Andres', title: 'Kadus 3', pid: 1, img: "assets/images/mr_bpd.jpg" },
-        { id: 12, name: 'Adi Syahputra', title: 'Kadus 4', pid: 1, img: "assets/images/mr_bpd.jpg" },
-        { id: 13, name: 'Adi Syahputra', title: 'Wakil Ketua BPD', pid: 2, img: "assets/images/mr_bpd.jpg" },
-        { id: 14, name: 'Adi Syahputra', title: 'Anggota BPD', pid: 13, img: "assets/images/mr_bpd.jpg" },
-        { id: 15, name: 'Adi Syahputra', title: 'Anggota BPD', pid: 13, img: "assets/images/mr_bpd.jpg" },
-        { id: 16, name: 'Adi Syahputra', title: 'Anggota BPD', pid: 13, img: "assets/images/mr_bpd.jpg" },
-        { id: 17, name: 'Adi Syahputra', title: 'Anggota BPD', pid: 13, img: "assets/images/mr_bpd.jpg" },
-        { id: 18, name: 'Adi Syahputra', title: 'Anggota BPD', pid: 13, img: "assets/images/mr_bpd.jpg" },
-    ]);
-  </script> -->
-
-  <!-- <script>
-    $("#btn-location").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#village-locations").offset().top
-        }, 2000);
-    });
-
-    $("#btn-majority-jobs").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#majority-jobs").offset().top
-        }, 2000);
-    }); -->
-  </script>
+        $("#contact").click(function() {
+            // $(window).animate({
+            //     scrollTop: $("#majority-jobs").offset().top
+            // }, 2000);
+            $(window).scrollTop( $("#footer").offset().top );
+        });
+      // })
+    </script>
 </body>
 
 </html>
