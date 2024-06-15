@@ -15,6 +15,6 @@ Web ini menjelaskan secara singkat tentang,
 <br>
 Dibuat sebagai bentuk penyelesaian dari proker KKN UIN SUSKA RIAU prodi Teknik Informatika 2023.
 
-Kunjungi web ini di https://bukitbetung.000webhostapp.com/
+Kunjungi web ini di https://ryhmn.github.io/Web-Desa-Bukit-Betung/
 
 Jangan lupa lihat dokumentasi kegiatan kami, mahasiswa KKN UIN SUSKA RIAU Desa Bukit Betung 2023 di https://www.instagram.com/kknbukitbetung2023/
